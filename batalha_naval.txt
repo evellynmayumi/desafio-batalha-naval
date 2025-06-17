@@ -1,0 +1,20 @@
+/*Represente o Tabuleiro: Utilize uma matriz (array bidimensional) para representar o tabuleiro do Batalha Naval. Neste nível novato, o tabuleiro terá um tamanho fixo 10x10. Inicialize todas as posições do tabuleiro com o valor 0, representando água.
+ 
+Posicione os Navios: Declare e inicialize dois vetores (arrays unidimensionais) para representar os navios. Cada navio ocupará um número fixo de posições no tabuleiro (defina esse tamanho, por exemplo, 3 posições). Um navio será posicionado horizontalmente e o outro verticalmente. Represente as posições ocupadas pelos navios na matriz do tabuleiro com o valor 3. Você deverá escolher as coordenadas iniciais de cada navio e garantir que eles estejam completamente dentro dos limites do tabuleiro e não se sobreponham. 
+Dica: O posicionamento do navio pode ser feito copiando o valor 3 de cada posição do vetor do navio para as posições correspondentes na matriz do tabuleiro, de acordo com a orientação (horizontal ou vertical) do navio.
+ 
+Exiba o Tabuleiro: Utilize loops aninhados e o comando printf para exibir o tabuleiro no console. Mostre a matriz completa, com 0s representando água e 3s representando as partes dos navios. A saída deve ser clara e organizada, permitindo visualizar facilmente a posição dos navios. 
+Dica: Imprima um espaço ou outro caractere separador entre os elementos da matriz para facilitar a visualização.
+
+Requisitos funcionais
+
+1. O programa deve receber as coordenadas iniciais (linha e coluna) de cada navio como entrada (pode ser definido diretamente no código).
+2. O programa deve validar se as coordenadas e o tamanho dos navios são válidos dentro dos limites do tabuleiro.
+3. O programa deve garantir que os navios não se sobreponham. 
+4. O programa deve exibir o tabuleiro no console com os navios posicionados corretamente.
+5. O tamanho do tabuleiro e dos navios é fixo (10x10).
+6. Os navios têm tamanho fixo igual a 3.
+7. As coordenadas dos navios são definidas diretamente no código, sem input do usuário. 
+8. Não é necessário implementar a lógica do jogo (ataques, acertos, etc.) neste nível.
+9. A validação de sobreposição de navios pode ser simplificada.*/
+
